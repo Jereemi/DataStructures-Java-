@@ -1,7 +1,7 @@
 /**
  * @author Jereemi
  * 
- * code to implement a printing pattern
+ * code to implement a printing pattern "|>"
  */
 import java.util.Scanner;
 
@@ -37,3 +37,13 @@ public class patternPriting {
 	}
 
 }
+
+output:
+
+Enter the number of rows: 
+5
+*
+**
+***
+**
+*

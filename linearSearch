@@ -1,11 +1,12 @@
+/**
+	 * @user JB
+	 * @throws Exception
+	 */
 import java.util.Scanner;
 
 public class linearSearch {
 
-	/**
-	 * @param args
-	 * @throws Exception
-	 */
+	
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		

@@ -1,0 +1,27 @@
+--Brute force approach
+class Solution {
+    public int maxArea(int[] height) {
+        
+        int maxarea = 0;
+        for(int i=0; i<height.length; i++)
+        {
+            for(int j=i+1; j<height.length; j++)
+            {
+                int length = height[i] < height[j] ? height[i] : height[j];
+                
+                int breadth = j - i;
+                
+                int area = length * breadth;
+                
+                if (area > maxarea)
+                {
+                    maxarea = area;
+                } 
+                
+            }
+        }
+        
+        return maxarea;
+        
+    }
+}
